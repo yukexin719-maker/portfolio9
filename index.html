@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>于可心 · Personal Website</title>
+  <meta name="description" content="于可心的个人网站" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-dot"></div>
+
+  <header class="site-header">
+    <a class="logo" href="#home">KEXIN<span>✦</span></a>
+    <button class="menu-toggle" aria-label="打开菜单">MENU ☻</button>
+    <nav>
+      <a href="#about">关于我</a>
+      <a href="#play">和我一起玩</a>
+      <a href="#contact">联系方式</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO MY LITTLE CORNER</p>
+        <h1>你好，<br>我是<span>于可心</span><i>✦</i></h1>
+        <p class="hero-sub">你的新同事，新伙伴，希望在工作和生活中都可以帮助到你。</p>
+      </div>
+      <div class="hero-photo-wrap"><img class="hero-photo" src="IMG_9147.JPG" alt="于可心毕业照片"></div>
+      <div class="hero-shapes" aria-hidden="true">
+        <div class="shape flower">✿</div>
+        <div class="shape bubble">☻</div>
+        <div class="shape star">✦</div>
+        <div class="shape squiggle">〰</div>
+      </div>
+      <a class="scroll-link" href="#about">↓ 往下逛逛</a>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-label">01 / ABOUT ME</div>
+      <div class="about-head">
+        <h2>一点简单的<br><span>自我介绍。</span></h2>
+      </div>
+
+      <div class="profile-grid">
+        <article class="fact-card rotate-left">
+          <span>MBTI</span>
+          <strong>ENFP</strong>
+          <small>好奇心驱动型选手 ✷</small>
+        </article>
+        <article class="fact-card photo-card">
+          <img src="IMG_9147.JPG" alt="于可心毕业照片">
+        </article>
+        <article class="fact-card rotate-right">
+          <span>星座</span>
+          <strong>巨蟹座 ♋</strong>
+          <small>2000.07.19</small>
+        </article>
+      </div>
+
+      <div class="timeline-wrap">
+        <div class="timeline-title"><span>MY</span> 成长地图 <i>🗺️</i></div>
+        <div class="timeline compact-timeline">
+          <article class="timeline-item">
+            <div class="year">2000</div>
+            <div class="timeline-content"><h3>HELLO WORLD!</h3><p>于可心上线 👶</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="year">本科</div>
+            <div class="timeline-content"><h3>广告学</h3><p>开始学习创意、传播和表达。</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="year">研究生</div>
+            <div class="timeline-content"><h3>新闻传播</h3><p>来到上海，继续探索媒介与内容。</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="year">2025.04—07</div>
+            <div class="timeline-content"><h3>得物 · 家居类目运营</h3><p>开始更具体地理解电商平台与类目运营。</p></div>
+          </article>
+          <article class="timeline-item">
+            <div class="year">2025.08—12</div>
+            <div class="timeline-content"><h3>麦当劳 · 市场部</h3><p>在市场活动与经营数据之间来回切换。</p></div>
+          </article>
+          <article class="timeline-item now">
+            <div class="year">NOW</div>
+            <div class="timeline-content"><h3>唯品会渠道运营助理</h3><p>电商中心 · 多渠道运营部 💻</p></div>
+          </article>
+          <article class="timeline-item future">
+            <div class="year">NEXT</div>
+            <div class="timeline-content"><h3>TO BE CONTINUED...</h3><p>下一站，继续探索 ✦</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="play" class="section play">
+      <div class="section-label">02 / LET'S PLAY!</div>
+      <div class="play-title">
+        <h2>工作之外，<br>和我<span>一起玩。</span></h2>
+        <div class="smiley">☻</div>
+      </div>
+      <div class="play-grid">
+        <article class="play-card swim">
+          <div class="card-icon">🏊</div>
+          <p class="mini">01 / SWIMMING</p>
+          <h3>喜欢游泳</h3>
+          <p>目前的隐藏成就是：</p>
+          <strong>成功教会 5 个朋友蛙泳！</strong>
+          <b class="learn-swim">欢迎找我学游泳 🏊</b>
+          <small>下一个会是谁呢？</small>
+        </article>
+        <article class="play-card dance">
+          <div class="card-icon">💃</div>
+          <p class="mini">02 / DANCING</p>
+          <h3>喜欢跳舞</h3>
+          <p>如果你也喜欢跳舞，</p>
+          <strong>可以随时约我！</strong>
+          <small>寻找快乐舞搭子中 ✦</small>
+        </article>
+        <article class="play-card cook">
+          <div class="card-icon">🍳</div>
+          <p class="mini">03 / COOKING</p>
+          <h3>喜欢做饭</h3>
+          <p>每天认真带饭中 🍱</p>
+          <strong>欢迎和我切磋厨艺。</strong>
+          <button id="mealButton">今天吃什么？</button>
+          <div id="mealResult" class="meal-result">点击看看我的随机答案</div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-sticker">LET'S<br>TALK!</div>
+      <p class="eyebrow">03 / CONTACT</p>
+      <h2>那么，<br><span>认识一下？</span></h2>
+      <p class="contact-copy">如果你刚好有一个有趣的想法，<br>或者只是想一起喝杯咖啡。</p>
+      <div class="contact-links">
+        <a href="mailto:ykx20000729@163.com">EMAIL ↗</a>
+        <a href="tel:15516280926">WECHAT ↗</a>
+        <a href="#" onclick="return false;">我的工位 ↗</a>
+      </div>
+      <div class="online">● KEXIN IS ONLINE <span>工位：医美大厦十楼，进门右转，倒数第三排。</span></div>
+      <footer>© 2026 KEXIN'S LITTLE UNIVERSE <span>MADE WITH ☻</span></footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
